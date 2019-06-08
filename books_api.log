@@ -1,0 +1,384 @@
+2019-05-26 23:35:47.027 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:35:47.118 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:35:47.118 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:35:47.119 [E] [Viktor19931/books_api/app/cfg.go:25]: app: ini-IniFile C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.ini not found, creating
+2019-05-26 23:35:47.121 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:35:47.138 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:16]: ---------------------------------------------------------
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:dial tcp: lookup port=5432: no such host
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(42)
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(25)
+2019-05-26 23:35:47.160 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:35:47.161 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:35:47.161 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:35:47.161 [E] [Viktor19931/books_api/log/api_recover.go:22]: ---------------------------------------------------------
+2019-05-26 23:38:16.822 [I] [Viktor19931/books_api/main.go:13]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:38:16.891 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:38:16.891 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:38:16.892 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:38:16.892 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:38:16.892 [I] [Viktor19931/books_api/appGuard/action.go:24]: appGuard: waiting stop signal...
+2019-05-26 23:38:41.337 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-26 23:38:41.337 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-26 23:38:41.339 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-26 23:38:41.339 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-26 23:40:50.225 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:40:50.263 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:40:50.263 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:40:50.264 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:40:50.266 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:16]: ---------------------------------------------------------
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:dial tcp: lookup port=5432: no such host
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(42)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(25)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:40:50.283 [E] [Viktor19931/books_api/log/api_recover.go:22]: ---------------------------------------------------------
+2019-05-26 23:45:16.730 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:45:16.768 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:45:16.768 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:45:16.769 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:45:16.771 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:45:16.773 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------------
+2019-05-26 23:45:16.773 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:invalid DSN: missing the slash separating the database name
+2019-05-26 23:45:16.773 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(44)
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(27)
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:45:16.774 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------------
+2019-05-26 23:49:52.105 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:49:52.142 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:49:52.142 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:49:52.143 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:49:52.145 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(45)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:49:52.215 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:06.237 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:53:06.275 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:53:06.275 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:53:06.275 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:53:06.277 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:53:06.279 [D] [Viktor19931/books_api/db/model.go:55]: db: ConnectionString:root:11111111@tcp(localhost:3306)/cabinet?charset=utf8
+2019-05-26 23:53:06.306 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:06.306 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:53:06.306 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(45)
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:53:06.307 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:25.198 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:53:25.236 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:53:25.236 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:53:25.236 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:53:25.238 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:53:25.240 [D] [Viktor19931/books_api/db/model.go:55]: db: ConnectionString:"root:11111111@tcp(localhost:3306)/cabinet?charset=utf8"
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(45)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:53:25.269 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:47.681 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:53:47.719 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:53:47.719 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:53:47.720 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:53:47.722 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:53:47.723 [D] [Viktor19931/books_api/db/model.go:55]: db: ConnectionString:"root:11111111@tcp(localhost:3306)/db_go1?charset=utf8"
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(45)
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:53:47.753 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:53:47.754 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:53:47.754 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-26 23:54:55.585 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:54:55.624 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:54:55.624 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:54:55.624 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:54:55.626 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:54:55.629 [D] [Viktor19931/books_api/db/model.go:27]: db: ConnectionString:"root:11111111@tcp(localhost:3306)/db_go1?charset=utf8"
+2019-05-26 23:54:55.657 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:54:55.657 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:54:55.657 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:54:55.657 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(45)
+2019-05-26 23:54:55.657 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:54:55.673 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:54:55.673 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:54:55.673 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:54:55.673 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-26 23:58:21.904 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-26 23:58:21.941 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-26 23:58:21.941 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-26 23:58:21.942 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-26 23:58:21.944 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-26 23:58:21.947 [D] [Viktor19931/books_api/db/api_cfg.go:38]: connecting to: root:11111111@tcp(localhost:3306)/db_go1?charset=utf8
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:16]: --------------------------------------------------------------------------------------------
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error ping:Error 1045: Access denied for user 'root'@'localhost' (using password: YES)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(46)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(22)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-26 23:58:21.976 [E] [Viktor19931/books_api/log/api_recover.go:22]: --------------------------------------------------------------------------------------------
+2019-05-27 01:39:38.010 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:39:38.134 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:39:38.134 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:39:38.135 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:39:38.138 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:39:38.141 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8000
+2019-05-27 01:40:45.912 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:40:45.912 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:40:45.914 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:40:45.914 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:42:16.616 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:42:16.661 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:42:16.661 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:42:16.662 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:42:16.664 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:42:16.667 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8000
+2019-05-27 01:43:08.791 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:43:08.791 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:43:08.793 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:43:08.793 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:43:20.736 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:43:20.775 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:43:20.775 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:43:20.775 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:43:20.777 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:43:20.780 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:48:06.487 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:48:06.487 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:48:06.490 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:48:06.490 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:48:12.485 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:48:12.533 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:48:12.534 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:48:12.534 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:48:12.539 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:48:12.542 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:49:25.791 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:49:25.791 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:49:25.793 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:49:25.793 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:49:55.287 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:49:55.339 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:49:55.339 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:49:55.340 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:49:55.342 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:49:55.345 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:51:06.235 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:51:06.275 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:51:06.275 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:51:06.276 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:51:06.278 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:51:06.280 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:58:15.488 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:58:15.488 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:58:15.490 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:58:15.490 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:58:21.247 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:58:21.286 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:58:21.286 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:58:21.287 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:58:21.289 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:58:21.292 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:58:37.184 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:58:37.184 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:58:37.189 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:58:37.189 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 01:59:06.413 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 01:59:06.453 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 01:59:06.453 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 01:59:06.454 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 01:59:06.456 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 01:59:06.458 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 01:59:46.200 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 01:59:46.200 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 01:59:46.202 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 01:59:46.202 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 02:00:00.565 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:00:00.604 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:00:00.604 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:00:00.605 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:00:00.607 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:00:00.610 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 02:00:11.080 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:11.084 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:11.085 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:11.089 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:11.557 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:16.634 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:16.636 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:00:16.646 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:03:08.768 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 02:03:08.769 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 02:03:08.771 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 02:03:08.771 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 02:03:14.536 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:03:14.574 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:03:14.574 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:03:14.575 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:03:14.577 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:03:14.579 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 02:03:18.434 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:03:18.435 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Rebind(438)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBook(56)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:03:18.436 [E] [Viktor19931/books_api/server/routers.go:42]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:04:01.216 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 02:04:01.216 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 02:04:01.218 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 02:04:01.218 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 02:04:07.358 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:04:07.408 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:04:07.408 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:04:07.409 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:04:07.411 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:04:07.414 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 02:04:32.438 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:04:32.438 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Rebind(438)
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBook(56)
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:04:32.439 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:04:32.440 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:04:32.440 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:04:32.440 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:04:32.440 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:04:32.440 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:04:50.201 [E] [Viktor19931/books_api/server/routers.go:42]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:05:29.905 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:05:29.945 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:05:29.945 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:05:29.945 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:05:29.947 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:05:29.950 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 02:05:37.808 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Rebind(438)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBook(56)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:05:37.809 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:05:37.810 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:05:37.810 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:05:37.810 [E] [Viktor19931/books_api/server/routers.go:42]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:05:41.946 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Rebind(438)
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBook(56)
+2019-05-27 02:05:41.946 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:05:41.947 [E] [Viktor19931/books_api/server/routers.go:42]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:05:55.454 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 02:05:55.459 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 02:05:55.462 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 02:05:55.462 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 02:06:55.637 [I] [Viktor19931/books_api/main.go:14]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:06:55.676 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:06:55.676 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:06:55.677 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:06:55.679 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:06:55.682 [I] [Viktor19931/books_api/server/api.go:18]: Server starting on :8080
+2019-05-27 02:07:01.622 [D] [Viktor19931/books_api/server/routers.go:55]: query:select * from book where id = ?
+2019-05-27 02:07:01.622 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Rebind(438)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBook(56)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:07:01.623 [E] [Viktor19931/books_api/server/routers.go:42]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:07:08.075 [E] [Viktor19931/books_api/log/api_recover.go:16]: ----------------------------------------------------------------------
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/panic.go --> runtime.panicmem(63)
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/signal_windows.go --> runtime.sigpanic(167)
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Queryx(501)
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.Select(818)
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/sqlx/sqlx.go --> sqlx.(*DB).Select(469)
+2019-05-27 02:07:08.076 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/server/routers.go --> server.getBooks(82)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.HandlerFunc.ServeHTTP(1947)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/gorilla/mux/mux.go --> mux.(*Router).ServeHTTP(212)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*ServeMux).ServeHTTP(2337)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.serverHandler.ServeHTTP(2694)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > net/http/server.go --> http.(*conn).serve(1830)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/log/api_recover.go:22]: ----------------------------------------------------------------------
+2019-05-27 02:07:08.077 [E] [Viktor19931/books_api/server/routers.go:72]: PANIC:runtime error: invalid memory address or nil pointer dereference
+2019-05-27 02:07:35.666 [I] [Viktor19931/books_api/appGuard/action.go:59]: appGuard: stopping and waiting controlled objects...
+2019-05-27 02:07:35.666 [I] [Viktor19931/books_api/appGuard/action.go:67]: appGuard: stopping: github.com/Viktor19931/books_api/app.tApp
+2019-05-27 02:07:35.668 [I] [Viktor19931/books_api/appGuard/action.go:80]: appGuard: application stopped.
+2019-05-27 02:07:35.668 [I] [Viktor19931/books_api/appGuard/action.go:81]: appGuard: bye
+2019-05-27 02:07:41.288 [I] [Viktor19931/books_api/main.go:15]: starting C:\APPW\go\src\github.com\Viktor19931\books_api\books_api.exe...
+2019-05-27 02:07:41.327 [I] [Viktor19931/books_api/appGuard/action.go:17]: appGuard: starting app "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.exe"
+2019-05-27 02:07:41.327 [I] [Viktor19931/books_api/app/api.go:16]: app: starting....
+2019-05-27 02:07:41.328 [I] [Viktor19931/books_api/app/cfg.go:35]: app: using ini-iniFileName "C:\\APPW\\go\\src\\github.com\\Viktor19931\\books_api\\books_api.ini"
+2019-05-27 02:07:41.330 [I] [Viktor19931/books_api/app/api.go:23]: app: Number of CPUs (Total=4 - Used=1)
+2019-05-27 02:07:41.332 [D] [Viktor19931/books_api/db/api_cfg.go:38]: connecting to: root:11111111@tcp(localhost:3306)/db_go1?charset=utf8
+2019-05-27 02:07:41.361 [E] [Viktor19931/books_api/log/api_recover.go:16]: -------------------------------------------------------
+2019-05-27 02:07:41.361 [E] [Viktor19931/books_api/log/api_recover.go:17]: PANIC Error connection to "mysql":"db_go1"(user:"root")
+2019-05-27 02:07:41.361 [E] [Viktor19931/books_api/log/api_recover.go:18]: > CALL STACK:
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.open(42)
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/db/api_cfg.go --> db.Start(28)
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:20]: > github.com/Viktor19931/books_api/main.go --> main.main(23)
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/proc.go --> runtime.main(198)
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:20]: > runtime/asm_amd64.s --> runtime.goexit(2361)
+2019-05-27 02:07:41.362 [E] [Viktor19931/books_api/log/api_recover.go:22]: -------------------------------------------------------
