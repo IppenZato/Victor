@@ -1,43 +1,27 @@
 package main
 
 import (
-	"database/sql"
-	"fmt"
-	"math/rand"
-	"runtime"
-	"time"
-
-	utl "books-list/util"
-
-	_ "github.com/go-sql-driver/mysql" // let work sql
+	"github.com/Viktor19931/books_api/log"
+	"github.com/Viktor19931/books_api/app"
+	"github.com/Viktor19931/books_api/appGuard"
+	"github.com/Viktor19931/books_api/utils"
+	"syscall"
+	"github.com/Viktor19931/books_api/server"
+	"github.com/Viktor19931/books_api/db"
 )
-
-func init() {
-	rand.Seed(time.Now().UnixNano())
-
-	maxCPU := runtime.NumCPU()
-
-	utl.CPUUsed = 4 // use 4 CPU
-	runtime.GOMAXPROCS(utl.CPUUsed)
-
-	fmt.Printf("\n=========================================\n")
-	fmt.Printf("= Number of CPUs (Total=%d - Used=%d)", maxCPU, utl.CPUUsed)
-	fmt.Printf("\n=========================================\n\n")
-}
-
 func main() {
-	fmt.Printf("Opening the %s ...\n\n", utl.DbName)
+	defer log.AppRecover(main, nil)	// перехватчик аварийного завершения программы
 
-	var err error
-	utl.DB, err = sql.Open(utl.DbDriver, utl.DataSourceName)
+	log.Info("starting %v...", utils.RunFile())
 
-	defer utl.DB.Close()
+	////------------------------------------------------------------
+	// перехватчик терминации проги - содержит список запускаемыемфх модулей
+	// при выходе приложения запускает функцию Stop() всех модулей
+	//------------------------------------------------------------
+	gapp := appGuard.Start(syscall.SIGINT, syscall.SIGTERM)
+	gapp.Add( app.Start() )     	// инициализация приложения
+	gapp.Add( db.Start() )     		// инициализация базы данных
+	gapp.Add( server.Start())  		// инициализация базы данных
 
-	if err != nil {
-		panic(err.Error())
-	} else {
-		fmt.Println("Success !!\n")
-	}
-
-	utl.BookService()
+	//gapp.WaitSignal()
 }
